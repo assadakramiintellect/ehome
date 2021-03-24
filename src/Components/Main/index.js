@@ -80,7 +80,8 @@ class Main extends Component {
                     <Route exact path="/Favorites" component={FavoritePage} />
 
                     <Route exact path="/list" component={ListPage} />
-                    <Route exact path="/" component={MainPage} />
+                    {/*MainPage*/}
+                    <Route exact path="/" component={Listings} />
                     <Route
                         path="/property-view/:title"
                         component={PropertyView}
